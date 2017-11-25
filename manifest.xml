@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<remote name="phh" fetch="https://github.com/phhusson/" />
+
+<project path="frameworks/av" name="platform_frameworks_av" remote="phh" revision="android-vts-8.0_r4-phh" />
+<project path="system/core" name="platform_system_core" remote="phh" revision="android-vts-8.0_r4-phh" />
+<project path="frameworks/opt/net/wifi" name="platform_frameworks_opt_net_wifi" remote="phh" revision="android-vts-8.0_r4-phh" />
+</manifest>
