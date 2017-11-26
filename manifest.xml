@@ -10,4 +10,7 @@
 
 <remove-project name="platform/frameworks/opt/net/wifi" />
 <project path="frameworks/opt/net/wifi" name="platform_frameworks_opt_net_wifi" remote="phh" revision="android-vts-8.0_r4-phh" />
+
+<remove-project name="platform/system/vold" />
+<project path="system/vold" name="platform_system_vold" remote="phh" revision="android-vts-8.0_r4-phh" />
 </manifest>
