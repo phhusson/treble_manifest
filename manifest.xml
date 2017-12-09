@@ -3,7 +3,15 @@
 <remote name="phh" fetch="https://github.com/phhusson/" />
 
 <remove-project name="platform/build" />
-<project path="build/make" name="platform_build" remote="phh" revision="android-vts-8.0_r4-phh" />
+<project path="build/make" name="platform_build" remote="phh" revision="android-vts-8.0_r4-phh">
+    <copyfile dest="Makefile" src="core/root.mk" />
+    <linkfile dest="build/CleanSpec.mk" src="CleanSpec.mk" />
+    <linkfile dest="build/buildspec.mk.default" src="buildspec.mk.default" />
+    <linkfile dest="build/core" src="core" />
+    <linkfile dest="build/envsetup.sh" src="envsetup.sh" />
+    <linkfile dest="build/target" src="target" />
+    <linkfile dest="build/tools" src="tools" />
+</project>
 
 <remove-project name="device/generic/armv7-a-neon" />
 <project path="device/generic/armv7-a-neon" name="device_generic_armv7-a-neon" remote="phh" revision="android-vts-8.0_r4-phh" />
