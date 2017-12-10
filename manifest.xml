@@ -33,4 +33,9 @@
 
 <remove-project name="platform/system/netd" />
 <project path="system/netd" name="platform_system_netd" remote="phh" revision="android-vts-8.0_r4-phh" />
+
+<remove-project name="platform/packages/services/Telephony" />
+<project path="packages/services/Telephony" name="platform_packages_services_Telephony" remote="phh" revision="android-vts-8.0_r4-phh" />
+
+<project path="vendor/hardware_overlay" name="vendor_hardware_overlay" remote="phh" revision="master" />
 </manifest>
