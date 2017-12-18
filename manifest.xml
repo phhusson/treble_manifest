@@ -22,8 +22,6 @@
 <remove-project name="platform/system/libhidl" />
 <project path="system/libhidl" name="platform_system_libhidl" remote="phh" revision="android-8.1.0_r1-phh" />
 
-<remove-project name="platform/system/sepolicy" />
-<project path="system/sepolicy" name="platform_system_sepolicy" remote="phh" revision="android-8.1.0_r1-phh" />
-
 <project path="vendor/hardware_overlay" name="vendor_hardware_overlay" remote="phh" revision="master" />
+<project path="device/phh/treble" name="device_phh_treble" remote="phh" revision="android-8.1" />
 </manifest>
