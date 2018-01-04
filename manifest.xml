@@ -14,6 +14,10 @@
 <remove-project name="platform/frameworks/base" />
 <project path="frameworks/base" name="platform_frameworks_base" remote="phh" revision="android-vts-8.0_r4-phh" />
 
+<!-- Needed for Huawei HWC -->
+<remove-project name="platform/frameworks/native" />
+<project path="frameworks/native" name="platform_frameworks_native" remote="phh" revision="android-vts-8.0_r4-phh" />
+
 <!-- (device boot) To debug. Most probably SEPolicy one liner, huawei -->
 <remove-project name="platform/frameworks/opt/net/wifi" />
 <project path="frameworks/opt/net/wifi" name="platform_frameworks_opt_net_wifi" remote="phh" revision="android-vts-8.0_r4-phh" />
