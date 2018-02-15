@@ -16,6 +16,9 @@
 <remove-project name="platform/system/core" />
 <project path="system/core" name="platform_system_core" remote="phh" revision="android-8.1.0_r14-phh" />
 
+<remove-project name="platform/system/sepolicy" />
+<project path="system/sepolicy" name="platform_system_sepolicy" remote="phh" revision="android-8.1.0_r14-phh" />
+
 <project path="vendor/hardware_overlay" name="vendor_hardware_overlay" remote="phh" revision="master" />
 <project path="device/phh/treble" name="device_phh_treble" remote="phh" revision="android-8.1" />
 <project path="vendor/vndk" name="vendor_vndk" remote="phh" revision="master" />
