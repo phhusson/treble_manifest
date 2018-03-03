@@ -19,6 +19,9 @@
 <remove-project name="platform/system/sepolicy" />
 <project path="system/sepolicy" name="platform_system_sepolicy" remote="phh" revision="android-8.1.0_r14-phh" />
 
+<remove-project name="platform/frameworks/native" />
+<project path="frameworks/native" name="platform_frameworks_native" remote="phh" revision="android-8.1.0_r14-phh" />
+
 <remove-project name="platform/system/vold" />
 <project path="system/vold" name="platform_system_vold" remote="phh" revision="android-8.1.0_r14-phh" />
 
