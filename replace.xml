@@ -31,4 +31,7 @@
 <remove-project name="platform/external/selinux" />
 <project path="external/selinux" name="platform_external_selinux" remote="phh" revision="android-8.1.0_r14-phh" />
 
+<remove-project name="platform/frameworks/base" />
+<project path="frameworks/base" name="platform_frameworks_base" remote="phh" revision="android-8.1.0_r14-phh" />
+
 </manifest>
