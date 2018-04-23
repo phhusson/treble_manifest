@@ -34,4 +34,7 @@
 <remove-project name="platform/frameworks/base" />
 <project path="frameworks/base" name="platform_frameworks_base" remote="phh" revision="android-8.1.0_r19-phh" />
 
+<remove-project name="platform/frameworks/av" />
+<project path="frameworks/av" name="platform_frameworks_av" remote="phh" revision="android-8.1.0_r19-phh" />
+
 </manifest>
