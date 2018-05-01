@@ -40,4 +40,7 @@
 <remove-project name="platform/frameworks/opt/telephony" />
 <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="phh" revision="android-8.1.0_r19-phh" />
 
+<remove-project name="platform/system/libvintf" />
+<project path="system/libvintf" name="platform_system_libvintf" remote="phh" revision="android-8.1.0_r19-phh" />
+
 </manifest>
