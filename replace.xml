@@ -3,7 +3,7 @@
 <remote name="phh" fetch="https://github.com/phhusson/" />
 
 <remove-project name="platform/build" />
-<project path="build/make" name="platform_build" remote="phh" revision="android-8.1.0_r36-phh">
+<project path="build/make" name="platform_build" remote="phh" revision="android-8.1.0_r43-phh">
     <copyfile dest="Makefile" src="core/root.mk" />
     <linkfile dest="build/CleanSpec.mk" src="CleanSpec.mk" />
     <linkfile dest="build/buildspec.mk.default" src="buildspec.mk.default" />
@@ -14,36 +14,36 @@
 </project>
 
 <remove-project name="platform/system/core" />
-<project path="system/core" name="platform_system_core" remote="phh" revision="android-8.1.0_r36-phh" />
+<project path="system/core" name="platform_system_core" remote="phh" revision="android-8.1.0_r43-phh" />
 
 <remove-project name="platform/system/sepolicy" />
-<project path="system/sepolicy" name="platform_system_sepolicy" remote="phh" revision="android-8.1.0_r36-phh" />
+<project path="system/sepolicy" name="platform_system_sepolicy" remote="phh" revision="android-8.1.0_r43-phh" />
 
 <remove-project name="platform/frameworks/native" />
-<project path="frameworks/native" name="platform_frameworks_native" remote="phh" revision="android-8.1.0_r36-phh" />
+<project path="frameworks/native" name="platform_frameworks_native" remote="phh" revision="android-8.1.0_r43-phh" />
 
 <remove-project name="platform/system/vold" />
-<project path="system/vold" name="platform_system_vold" remote="phh" revision="android-8.1.0_r36-phh" />
+<project path="system/vold" name="platform_system_vold" remote="phh" revision="android-8.1.0_r43-phh" />
 
 <remove-project name="platform/system/bt" />
-<project path="system/bt" name="platform_system_bt" remote="phh" revision="android-8.1.0_r36-phh" />
+<project path="system/bt" name="platform_system_bt" remote="phh" revision="android-8.1.0_r43-phh" />
 
 <remove-project name="platform/external/selinux" />
-<project path="external/selinux" name="platform_external_selinux" remote="phh" revision="android-8.1.0_r36-phh" />
+<project path="external/selinux" name="platform_external_selinux" remote="phh" revision="android-8.1.0_r43-phh" />
 
 <remove-project name="platform/frameworks/base" />
-<project path="frameworks/base" name="platform_frameworks_base" remote="phh" revision="android-8.1.0_r36-phh" />
+<project path="frameworks/base" name="platform_frameworks_base" remote="phh" revision="android-8.1.0_r43-phh" />
 
 <remove-project name="platform/frameworks/av" />
-<project path="frameworks/av" name="platform_frameworks_av" remote="phh" revision="android-8.1.0_r36-phh" />
+<project path="frameworks/av" name="platform_frameworks_av" remote="phh" revision="android-8.1.0_r43-phh" />
 
 <remove-project name="platform/frameworks/opt/telephony" />
-<project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="phh" revision="android-8.1.0_r36-phh" />
+<project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="phh" revision="android-8.1.0_r43-phh" />
 
 <remove-project name="platform/system/libvintf" />
-<project path="system/libvintf" name="platform_system_libvintf" remote="phh" revision="android-8.1.0_r36-phh" />
+<project path="system/libvintf" name="platform_system_libvintf" remote="phh" revision="android-8.1.0_r43-phh" />
 
 <remove-project name="platform/system/netd" />
-<project path="system/netd" name="platform_system_netd" remote="phh" revision="android-8.1.0_r36-phh" />
+<project path="system/netd" name="platform_system_netd" remote="phh" revision="android-8.1.0_r43-phh" />
 
 </manifest>
