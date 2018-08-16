@@ -12,10 +12,9 @@
     <linkfile dest="build/target" src="target" />
     <linkfile dest="build/tools" src="tools" />
 </project>
-<!-- FIXME
+
 <remove-project name="platform/system/core" />
 <project path="system/core" name="platform_system_core" remote="phh" revision="android-9.0.0_r1-phh" />
--->
 
 <remove-project name="platform/system/sepolicy" />
 <project path="system/sepolicy" name="platform_system_sepolicy" remote="phh" revision="android-9.0.0_r1-phh" />
