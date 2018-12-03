@@ -52,4 +52,7 @@
 <remove-project name="platform/packages/apps/Settings" />
 <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="phh" revision="android-9.0.0_r16-phh" />
 
+<remove-project name="platform/packages/services/Telephony" />
+<project path="packages/services/Telephony" name="platform_packages_services_Telephony" remote="phh" revision="android-9.0.0_r16-phh" />
+
 </manifest>
