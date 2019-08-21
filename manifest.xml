@@ -11,4 +11,6 @@
 
 <!-- exfat support -->
 <project path="external/exfat" name="exfat" remote="phh" revision="android.bp-pie" />
+
+<project path="vendor/magisk" name="vendor_magisk" remote="phh" revision="master" />
 </manifest>
