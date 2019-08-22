@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-<remote name="gitlab" fetch="https://gitlab.opengapps.org/opengapps/"  />
+<remote name="opengapps" fetch="https://gitlab.opengapps.org/opengapps/"  />
 <remote name="opengappsold" fetch="http://github.com/opengapps/"  />
 
 <project path="vendor/opengapps/build" name="aosp_build" revision="master" remote="opengappsold" />
