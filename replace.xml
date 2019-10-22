@@ -64,4 +64,7 @@
 <remove-project name="platform/system/bpf" />
 <project path="system/bpf" name="platform_system_bpf" remote="phh" revision="android-10.0.0_r2-phh" />
 
+<remove-project name="platform/external/skia" />
+<project path="external/skia" name="platform_external_skia" remote="phh" revision="android-10.0.0_r2-phh" />
+
 </manifest>
