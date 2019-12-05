@@ -10,7 +10,7 @@
 <project path="vendor/interfaces" name="vendor_interfaces" remote="phh" revision="pie" />
 
 
-<project path="vendor/magisk" name="vendor_magisk" remote="phh" revision="master" />
+<project path="vendor/magisk" name="vendor_magisk" remote="phh" revision="android-10.0" />
 
 <!-- exfat support -->
 <remote name="relan" fetch="https://github.com/relan/" />
