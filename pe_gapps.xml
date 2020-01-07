@@ -2,5 +2,6 @@
 <manifest>
 <remote name="pe" fetch="https://gitlab.com/PixelExperience/"  />
 
-<project path="vendor/gapps/" name="vendor_gapps" revision="ten" remote="pe" />
+<project path="vendor/gapps/" name="vendor_gapps" revision="84ad3aa0967f969b58ee1edb01a9e21e5a621d1a" upstream="ten" remote="pe" />
+
 </manifest>
