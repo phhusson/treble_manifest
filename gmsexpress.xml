@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-<remote name="gitlab" fetch="https://gitlab.org/" />
+    <remote name="gms-mirror" fetch="https://gitlab.com/gms-mirror/" />
 
-<project path="vendor/google" name="gms-mirror/gmsexpress" revision="master" remote="gitlab" />
+<project path="vendor/google" name="gmsexpress" revision="master" remote="gms-mirror" />
 </manifest>
