@@ -50,6 +50,9 @@
 <remove-project name="platform/external/skia" />
 <project path="external/skia" name="platform_external_skia" remote="phh" revision="android-11.0.0_r3-phh" />
 
+<remove-project name="platform/system/memory/lmkd" />
+<project path="system/memory/lmkd" name="platform_system_memory_lmkd" remote="phh" revision="android-11.0.0_r3-phh" />
+
 <!--
 
 
