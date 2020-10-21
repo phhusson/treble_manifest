@@ -14,4 +14,8 @@
 <!-- exfat support -->
 <remote name="relan" fetch="https://github.com/relan/" />
 <project path="external/exfat" name="exfat" remote="relan" revision="master" />
+
+<!-- ProtonOS -->
+<remote name="proton" fetch="https://github.com/Project-Proton/" />
+<project path="vendor/proton" name="android_vendor_proton" remote="proton" revision="Android-11.0" />
 </manifest>
