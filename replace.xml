@@ -56,6 +56,9 @@
 <remove-project name="platform/system/extras" />
 <project path="system/extras" name="platform_system_extras" remote="phh" revision="android-11.0.0_r3-phh" />
 
+<remove-project name="platform/frameworks/opt/net/wifi" />
+<project path="frameworks/opt/net/wifi" name="platform_frameworks_opt_net_wifi" remote="phh" revision="android-11.0.0_r3-phh" />
+
 <!--
 
 
