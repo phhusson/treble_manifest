@@ -59,11 +59,12 @@
 <remove-project name="platform/frameworks/opt/net/wifi" />
 <project path="frameworks/opt/net/wifi" name="platform_frameworks_opt_net_wifi" remote="phh" revision="android-11.0.0_r8-phh" />
 
+<remove-project name="platform/frameworks/opt/telephony" />
+<project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="phh" revision="android-11.0.0_r8-phh" />
+
 <!--
 
 
-<remove-project name="platform/frameworks/opt/telephony" />
-<project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="phh" revision="android-10.0.0_r41-phh" />
 
 <remove-project name="platform/system/libvintf" />
 <project path="system/libvintf" name="platform_system_libvintf" remote="phh" revision="android-10.0.0_r41-phh" />
