@@ -7,4 +7,7 @@
 		revision="refs/tags/0.2.7" />
 	<project path="vendor/foss" name="vendor_foss"
 		remote="phh" revision="master" />
+
+	<remote name="seedvault-github" fetch="https://github.com/seedvault-app/" />
+    <project path="vendor/seedvault" name="seedvault" remote="seedvault-github" revision="master" />
 </manifest>
