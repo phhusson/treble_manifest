@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<remote name="gitrip" fetch="https://git.rip/" />
+
+    <project path="vendor/google" name="LynnTheFolf/Mediatek-GMS-R" remote="gitrip" revision="master" />
+</manifest>
