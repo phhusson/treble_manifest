@@ -65,6 +65,9 @@
 <remove-project name="platform/system/netd" />
 <project path="system/netd" name="platform_system_netd" remote="phh" revision="android-11.0.0_r20-phh" />
 
+<remove-project name="platform/system/nfc" />
+<project path="system/nfc" name="platform_system_nfc" remote="phh" revision="android-11.0.0_r20-phh" />
+
 <!--
 <remove-project name="platform/system/libvintf" />
 <project path="system/libvintf" name="platform_system_libvintf" remote="phh" revision="android-10.0.0_r41-phh" />
