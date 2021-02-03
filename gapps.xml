@@ -2,7 +2,7 @@
 <manifest>
 	<remote name="gitrip" fetch="https://git.rip/" />
 
-    <project path="vendor/google" name="mtkgms/partner_gms" remote="gitrip" revision="gms-oem-R-11-202101" />
+    <project path="vendor/google" name="mtkgms/partner_gms" remote="gitrip" revision="11" />
 
 
 </manifest>
