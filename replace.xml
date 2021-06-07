@@ -73,6 +73,9 @@
 
 <remove-project name="platform/packages/apps/Settings" />
 <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="phh" revision="android-11.0.0_r37-phh" />
+
+<remove-project name="platform/packages/apps/Bluetooth" />
+<project path="packages/apps/Bluetooth" name="platform_packages_apps_Bluetooth" remote="phh" revision="android-11.0.0_r37-phh" />
 <!--
 <remove-project name="platform/system/libvintf" />
 <project path="system/libvintf" name="platform_system_libvintf" remote="phh" revision="android-10.0.0_r41-phh" />
