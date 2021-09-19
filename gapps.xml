@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<remote name="gitlab" fetch="https://gitlab.com/" />
-
-    <project path="vendor/partner_gms" name="00p513-dev/partner_gms" remote="gitlab" revision="11" />
-
-
+	<remote name="bitbucket" fetch="https://bitbucket.org/" />
+	<project path="vendor/google" name="00p513-dev/vendor_google.git" remote="bitbucket" revision="master" />
 </manifest>
