@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
-	<remote name="gitlab" fetch="https://gitlab.com/" />
-
-    <project path="vendor/partner_gms" name="00p513-dev/partner_gms" remote="gitlab" revision="11" />
-
-
-</manifest>
