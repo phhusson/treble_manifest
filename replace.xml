@@ -50,4 +50,10 @@
 <remove-project name="platform/system/bpf" />
 <project path="system/bpf" name="platform_system_bpf" remote="phh" revision="android-12.0.0_r3-phh" />
 
+<remove-project name="platform/bionic" />
+<project path="bionic" name="platform_bionic" remote="phh" revision="android-12.0.0_r3-phh" />
+
+<remove-project name="platform/system/linkerconfig" />
+<project path="system/linkerconfig" name="platform_system_linkerconfig" remote="phh" revision="android-12.0.0_r3-phh" />
+
 </manifest>
