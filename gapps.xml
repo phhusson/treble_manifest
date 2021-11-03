@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<remote name="davish" fetch="https://gitlab.com/davi.sh/" />
+	<project path="vendor/partner_gms" name="gms-android-12"
+		remote="davish" revision="d589a97c7aa34964c06077a6cc20a66234d5b16d" />
+
+</manifest>
