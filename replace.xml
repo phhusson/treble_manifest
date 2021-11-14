@@ -56,4 +56,7 @@
 <remove-project name="platform/system/linkerconfig" />
 <project path="system/linkerconfig" name="platform_system_linkerconfig" remote="phh" revision="android-12.0.0_r11-phh" />
 
+<remove-project name="platform/frameworks/opt/net/ims" />
+<project path="frameworks/opt/net/ims" name="platform_frameworks_opt_net_ims" remote="phh" revision="android-12.0.0_r11-phh" />
+
 </manifest>
