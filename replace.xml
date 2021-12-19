@@ -59,4 +59,7 @@
 <remove-project name="platform/frameworks/opt/net/ims" />
 <project path="frameworks/opt/net/ims" name="platform_frameworks_opt_net_ims" remote="phh" revision="android-12.0.0_r16-phh" />
 
+<remove-project name="platform/hardware/interfaces" />
+<project path="hardware/interfaces" name="platform_hardware_interfaces" remote="phh" revision="android-12.0.0_r16-phh" />
+
 </manifest>
