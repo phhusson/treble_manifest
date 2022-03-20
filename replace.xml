@@ -62,4 +62,7 @@
 <remove-project name="platform/hardware/interfaces" />
 <project path="hardware/interfaces" name="platform_hardware_interfaces" remote="phh" revision="android-12.1.0_r1-phh" />
 
+<remove-project name="platform/system/security" />
+<project path="system/security" name="platform_system_security" remote="phh" revision="android-12.1.0_r1-phh" />
+
 </manifest>
