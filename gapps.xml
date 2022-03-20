@@ -2,6 +2,6 @@
 <manifest>
 	<remote name="davish" fetch="https://gitlab.com/davi.sh/" />
 	<project path="vendor/partner_gms" name="gms-android-12"
-		remote="davish" revision="70eb4acf26ea0f9aa7ee85e7c06397fcbe8546e0" />
+		remote="davish" revision="d589a97c7aa34964c06077a6cc20a66234d5b16d" />
 
 </manifest>
